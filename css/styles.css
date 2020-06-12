@@ -1,0 +1,137 @@
+body {
+    height: 100vh;
+}
+.left-side {
+    background-image: url("../img/bgimage_drivers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+.header-logo img {
+    max-width: 75px;
+    margin: 25px;
+}
+.heading {
+    color: aliceblue;
+    margin-top: 45vh;
+    margin-left: 9vw;
+    min-width: 330px;
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+}
+.heading h1 {
+    font-family: 'Raleway';
+    font-size: 54px;
+    margin-bottom: 0.5em;
+    font-weight: 900;
+}
+.heading h5 {
+    font-weight: 400;
+}
+label {
+    font-weight: 700;
+}
+.right-side .header {
+    padding: 15px 0;
+    height: fit-content;
+}
+.right-side .header button {
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.right-side .header .languge {
+    border: none;
+    background-color: transparent;
+    color: gray;
+}
+.right-side .header .languge img {
+    margin-right: 10px;
+    align-self: center;
+}
+.right-side .logo {
+    max-width: 75px;
+    height: auto;
+    margin: 25px 0 0 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.right-side .header a {
+    align-self: center;
+    color: gray;
+}
+.right-side .form-row {
+    height: 90vh;
+}
+.right-side form {
+    max-width: 500px;
+    width:100%;
+}
+.right-side h6 {
+    padding: 10px 0;
+}
+.right-side .phone {
+    height: 48px;
+} 
+.right-side .fleet {
+    text-align: center;
+}
+.right-side .fleet h6{
+    padding: 0;
+}
+.right-side .fleet a {
+    color: #40DF6D;
+}
+.right-side small{
+    color:grey;
+ }
+.right-side .terms span {
+    padding-left: 10px;
+    color:grey;
+    font-size: 0.9rem;
+}
+.right-side .terms a {
+    color:grey;
+    text-decoration: underline;
+}
+.right-side .btn-success {
+    height: 48px;
+    letter-spacing: 0.75px;
+}
+.iti--allow-dropdown {
+    width: 100%;
+}
+@media only screen and (max-width: 1080px) {
+    .left-side {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    .right-side .logo {
+        display: none;
+    }
+}
+@media only screen and (max-height: 750px) {
+    .left-side {
+        display: none;
+    }
+    .right-side .form-row {
+        height: 100%;
+    }
+    .right-side .logo {
+        display: block;
+    }
+}
+
+
+
+.iti__flag {
+    background-image: url("img/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("img/flags@2x.png");}
+}
