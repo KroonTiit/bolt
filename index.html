@@ -40,7 +40,7 @@
                     <button class="languge"><img src="./img/globe.svg" height="20" width="20"/>English</button>
                 </div>
                 <div class="row form-row justify-content-center align-content-center">
-                    <form action="#" >
+                    <form action="#" onsubmit="checkSubmit()">
                         <div class="col">
                             <div class="form-group">
                                 <h2>Sign up as a driver</h2>
@@ -65,7 +65,7 @@
                                 <input name="city" class="form-control" type="text">
                             </div>
                             <div class="form-group terms">
-                                <input name="terms" type="checkbox">
+                                <input name="terms" type="checkbox" id="terms">
                                 <span for="terms">
                                     By signing up, you accept out 
                                     <a href="#">Terms of Service</a> 
